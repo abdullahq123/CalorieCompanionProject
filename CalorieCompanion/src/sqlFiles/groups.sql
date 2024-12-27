@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS Groups (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    description TEXT NOT NULL,
+    type TEXT NOT NULL
+);

@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Friends (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    userId INTEGER,
+    friendId INTEGER,
+    FOREIGN KEY (userId) REFERENCES Users(id),
+    FOREIGN KEY (friendId) REFERENCES Users(id)
+);

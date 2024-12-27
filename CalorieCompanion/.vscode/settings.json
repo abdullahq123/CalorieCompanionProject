@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/abdullahq/Desktop/sqlite-jdbc-3.46.0.1.jar",
+        "/Users/abdullahq/Desktop/slf4j-simple-2.1.0-alpha1.jar",
+        "/Users/abdullahq/Desktop/slf4j-api-2.0.7.jar"
+    ]
+}
